@@ -1,0 +1,588 @@
+/*Author: Yordi Muñoz Vazquez*/
+/*Subject: Internet Programming - CUCEI / UdeG*/
+/*Work 01: Layout in HTML, CSS (T01 - Maquetando en Html, Css)*/
+/*WARNING: This code contains Personal Information, unauthorized use is prohibited.*/
+
+/*Body of CV*/
+.bodycv {
+    display: grid;
+    grid-template-columns: auto 450px 450px auto;
+    grid-template-rows: 50px 290px 40px 50px 40px 40px 40px 40px 40px 40px 40px 40px 50px 40px 40px 40px 70px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#titulo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #059059;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/*Photo Info ----------------------------------- */
+#my-photo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: auto;
+    height: auto;
+    background-image: url(https://avatars.githubusercontent.com/u/80172018?s=400&u=acdd395d46db8a83d03f0c2a9760ccf92cd93af8&v=4);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    --bor-color: Green;
+    border: 4px solid var(--bor-color);
+    border-radius: 10px;
+}
+
+/*CV Personal Information ------------------------*/
+.my-info {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 15% 15% 15% 15%;
+    row-gap: 6%;
+}
+/*Name*/
+#my-name {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #059059;
+    border-radius: 10px;
+    font-family: Audiowide, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255,255);
+    padding: 7px;
+    border: 2px solid #059059;
+}
+
+/*Age*/
+#my-age {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Number Phone*/
+#my-number {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Networks*/
+#my-networks {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #059059;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Country*/
+#my-country {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Studies -------------------------------------*/
+#my-study {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    background-color: #059059;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/*High School*/
+#my-highschool {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+/*University*/
+#my-university {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+/*University 02*/
+#my-university2 {  
+    grid-column: 2/4;
+    grid-row: 5/6;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Skills ----------------------------------------*/
+#my-skills {
+    grid-column: 2/4;
+    grid-row: 6/7;
+    background-color: #059059;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/*Responsability*/
+#my-responsability {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*confiance*/
+#my-confiance {
+    grid-column: 3/4;
+    grid-row: 7/8;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Flexibility*/
+#my-flexibility {
+    grid-column: 2/3;
+    grid-row: 8/9;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Initiative*/
+#my-initiative {
+    grid-column: 3/4;
+    grid-row: 8/9;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Creativity*/
+#my-creativity {
+    grid-column: 2/3;
+    grid-row: 9/10;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Teamwork*/
+#my-teamwork {
+    grid-column: 3/4;
+    grid-row: 9/10;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Leadership*/
+#my-leadership {
+    grid-column: 2/3;
+    grid-row: 10/11;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Honesty*/
+#my-honesty {
+    grid-column: 3/4;
+    grid-row: 10/11;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Attitude*/
+#my-attitude {
+    grid-column: 2/3;
+    grid-row: 11/12;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Memory*/
+#my-memory {
+    grid-column: 3/4;
+    grid-row: 11/12;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Experience ------------------------------*/
+#my-experience {
+    grid-column: 2/4;
+    grid-row: 12/13;
+    background-color: rgb(5, 144, 89);
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+}
+
+/*Time*/
+#my-time {
+    grid-column: 2/3;
+    grid-row: 13/14;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+/*Job*/
+#my-job {
+    grid-column: 3/4;
+    grid-row: 13/14;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 7px;
+    border: 1px solid black;;
+}
+
+/*Project -----------------------------------*/
+#my-project {
+    grid-column: 2/4;
+    grid-row: 14/15;
+    background-color: #059059;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+}
+
+/*NOT Project*/
+#my-notproject {
+    grid-column: 2/4;
+    grid-row: 15/16;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+/*Professional --------------------------------*/
+#my-professional {
+    grid-column: 2/4;
+    grid-row: 16/17;
+    background-color: rgb(5, 144, 89);
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+}
+
+/*Interests*/
+#my-interests {
+    grid-column: 2/4;
+    grid-row: 17/18;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+/*Programming Languages --------------------------- */
+#my-programminglanguages{
+    grid-column: 2/4;
+    grid-row: 18/19;
+    background-color: #059059;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+}
+
+/*Language: C#*/
+#my-csharp {  
+    grid-column: 2/3;
+    grid-row: 19/20;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Language: C++*/
+#my-cpp {  
+    grid-column: 3/4;
+    grid-row: 19/20;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Language: HTML*/
+#my-html {  
+    grid-column: 2/3;
+    grid-row: 20/21;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Language: Python*/
+#my-python {  
+    grid-column: 3/4;
+    grid-row: 20/21;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+/*Languages you speak: English -------------------------*/
+#my-languages {
+    grid-column: 2/4;
+    grid-row: 21/22;
+    background-color: rgb(5, 144, 89);
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+}
+
+/*Language: English*/
+#my-english {  
+    grid-column: 2/4;
+    grid-row: 22/23;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Personal References ---------------------------*/
+#my-references {
+    grid-column: 2/4;
+    grid-row: 23/24;
+    background-color: #059059;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+
+}
+
+/*References: 1*/
+#my-ref01 {  
+    grid-column: 2/3;
+    grid-row: 24/25;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Number Reference: 1*/
+#my-num01 {  
+    grid-column: 3/4;
+    grid-row: 24/25;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*References: 2*/
+#my-ref02 {  
+    grid-column: 2/3;
+    grid-row: 25/26;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*Number Reference: 2*/
+#my-num02 {  
+    grid-column: 3/4;
+    grid-row: 25/26;
+    background-color: white;
+    border-radius: 10px;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
